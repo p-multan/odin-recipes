@@ -4,6 +4,34 @@
     box-sizing: border-box;
 }
 
+/* UTILITIES */
+
+.part-title {
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+}
+
+.go-back {
+    margin-top: 2rem;
+}
+
+.go-back__link {
+    display: inline-block;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transform: scale(1);
+    transition: .3s linear;
+}
+
+.go-back__link:hover {
+    transform: scale(1.2);
+}
+
 .container {
     width: 85%;
     max-width: 1200px;
@@ -11,6 +39,8 @@
     font-family: 'Courier New', sans-serif;
 
 }
+
+/* HEADER */
 
 .header__link {
     text-decoration: none;
@@ -23,6 +53,8 @@
     text-transform: uppercase;
     color: black;
 }
+
+/* NAV */
 
 .nav {
     padding: 2rem;
@@ -60,32 +92,36 @@
     color: white;
 }
 
-/* UTILITIES */
+/* MAIN PAGE */
 
-.part-title {
-    font-size: 20px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
+.home__title {
+    font-size: 50px;
+    letter-spacing: 2px;
+    text-align: center;
     margin-bottom: 1rem;
 }
 
-.go-back {
-    margin-top: 2rem;
+.home__picture-container {
+    position: relative;
+    margin: 2rem 0;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
 }
 
-.go-back__link {
-    display: inline-block;
+.home__picture-item {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-height: 100%;
+    min-width: 100%;
+}
+
+.home__desc {
     font-size: 18px;
-    text-decoration: none;
-    color: black;
-    letter-spacing: 2px;
-    cursor: pointer;
-    transform: scale(1);
-    transition: .3s linear;
-}
-
-.go-back__link:hover {
-    transform: scale(1.2);
+    line-height: 2;
+    text-align: justify;
 }
 
 /* RECIPES */

@@ -9,44 +9,77 @@
 </head>
 <body>
     <div class="container">
-    <header class="header">
-        <h1 class="header__title">Odin Recipes</h1>
-        <nav class="nav">
-            <ul class="nav__menu">
-                <li class="nav__menu-link">
-                    <a href="./lasagna.html" class="nav__menu-link-item">Lasagna</a>
-                </li>
-                <li class="nav__menu-link">
-                    <a href="./pizza.html" class="nav__menu-link-item">Pizza</a>
-                </li>
-                <li class="nav__menu-link">
-                    <a href="./fried-chicken.html" class="nav__menu-link-item nav__menu-link-item--active">Fried Chicked</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-    <h1>Fried chicken</h1>
-    <img src="../img/chicken.jpg" alt="Picture of Fried chicken">
-    <h3>Description</h3>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam ipsam sequi repudiandae facilis modi rem fugiat impedit nisi tempora et.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, nam? Quia dolores rem, ab aut consequuntur ea voluptatum laborum explicabo expedita vitae tenetur animi. Similique.</p>
-    <h3>Ingredients</h3>
-    <ul>
-        <li>9 lasagna noodles</li>
-        <li>1-1/4 pounds bulk Italian sausage</li>
-        <li>3/4 pound ground beef</li>
-        <li>1 medium onion, diced</li>
-        <li>3 garlic cloves, minced</li>
-        <li>2 cans (6 ounces each) tomato paste</li>
-    </ul>
-    <h3>Steps</h3>
-    <ol>
-        <li>Lorem ipsum dolor sit amet.</li>
-        <li>Lorem ipsum dolor sit.</li>
-        <li>Lorem ipsum dolor sit amet consectetur.</li>
-        <li>Lorem, ipsum dolor.</li>
-        <li>Lorem ipsum dolor sit amet.</li>
-    </ol>
+        <header class="header">
+            <a href="../index.html" class="header__link">
+                <h1 class="header__link-title">Odin Recipes</h1>
+            </a>
+            <nav class="nav">
+                <ul class="nav__menu">
+                    <li class="nav__menu-link">
+                        <a href="./lasagna.html" class="nav__menu-link-item">Lasagna</a>
+                    </li>
+                    <li class="nav__menu-link">
+                        <a href="./pizza.html" class="nav__menu-link-item">Pizza</a>
+                    </li>
+                    <li class="nav__menu-link">
+                        <a href="./fried-chicken.html" class="nav__menu-link-item nav__menu-link-item--active">Fried Chicked</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main class="main">
+            <section class="recipe">
+                <h2 class="recipe__title">
+                    Fried Chicken
+                </h2>
+                <div class="recipe__picture-container">
+                    <img src="../img/chicken.jpg" alt="Picture of Chicken" class="recipe__picture-item">
+                </div>
+                <div class="recipe__description">
+                    <h4 class="part-title">
+                        Description
+                    </h4>
+                    <p class="recipe__description-content">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias nihil, quibusdam est mollitia dignissimos dolores fugit rem ut fuga illum?
+                    </p>
+                    <p class="recipe__description-content">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta nisi et distinctio pariatur eligendi in dolorum voluptas corporis minima deserunt nulla autem porro quod veritatis rerum eveniet quos doloremque architecto voluptatum nemo possimus praesentium, reprehenderit at expedita. Explicabo, esse tenetur.
+                    </p>
+                    <p class="recipe__description-content">
+                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa eius omnis laborum consequatur, harum ratione debitis, neque dolore in sit magnam nulla excepturi consequuntur quae facere inventore.
+                    </p>
+                </div>
+                <div class="recipe__ingredients">
+                    <h4 class="part-title">
+                        Ingredients
+                    </h4>
+                    <ul class="recipe__ingredients-list">
+                        <li class="recipe__ingredients-list-item">9 lasagna noodles</li>
+                        <li class="recipe__ingredients-list-item">1-1/4 pounds bulk Italian sausage</li>
+                        <li class="recipe__ingredients-list-item">3/4 pound ground beef</li>
+                        <li class="recipe__ingredients-list-item">1 medium onion, diced</li>
+                        <li class="recipe__ingredients-list-item">3 garlic cloves, minced</li>
+                        <li class="recipe__ingredients-list-item">2 cans (6 ounces each) tomato paste</li>
+                    </ul>
+                </div>
+                <div class="recipe__steps">
+                    <h4 class="part-title">
+                        Steps
+                    </h4>
+                    <ol class="recipe__steps-list">
+                        <li class="recipe__steps-list-item">Lorem, ipsum dolor.</li>
+                        <li class="recipe__steps-list-item">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</li>
+                        <li class="recipe__steps-list-item">Lorem ipsum dolor sit amet.</li>
+                        <li class="recipe__steps-list-item">Lorem ipsum dolor sit amet consectetur.</li>
+                        <li class="recipe__steps-list-item">Lorem ipsum dolor sit.</li>
+                    </ol>
+                </div>
+            </section>
+            <div class="go-back">
+                <a href="../index.html" class="go-back__link"><<< Back to main page</a>
+            </div>
+        </main>   
+
 </div>
 <footer class="footer">
     <div class="container">

@@ -12,16 +12,22 @@
 
 }
 
+.header__link {
+    text-decoration: none;
+}
 
-
-.header__title {
-    font-size: 42px;
+.header__link-title {
+    font-size: 48px;
     letter-spacing: 1px;
     text-align: center;
+    text-transform: uppercase;
+    color: black;
 }
 
 .nav {
-    margin-top: 2rem;
+    padding: 2rem;
+    margin: 4rem 0;
+    border: 1px dashed black;
 }
 
 .nav__menu {
@@ -52,4 +58,100 @@
 .nav__menu-link-item--active {
     background-color: black;
     color: white;
+}
+
+/* UTILITIES */
+
+.part-title {
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+}
+
+.go-back {
+    margin-top: 2rem;
+}
+
+.go-back__link {
+    display: inline-block;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transform: scale(1);
+    transition: .3s linear;
+}
+
+.go-back__link:hover {
+    transform: scale(1.2);
+}
+
+/* RECIPES */
+
+.recipe {
+}
+
+.recipe__title {
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.recipe__picture-container {
+    position: relative;
+    margin: 3rem 0;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+
+.recipe__picture-item {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-height: 100%;
+    min-width: 100%;
+}
+
+.recipe__description-content {
+    margin: 1rem 0;
+    font-size: 18px;
+    text-align: justify;
+    line-height: 1.3;
+}
+
+.recipe__ingredients {
+    margin-bottom: 1rem;
+    font-size: 18px;
+}
+
+.recipe__ingredients-list {
+    list-style: square inside;
+}
+
+.recipe__steps {
+    margin-bottom: 1rem;
+}
+
+.recipe__steps-list {
+    list-style-position: inside;
+    font-size: 18px;
+}
+
+/* FOOTER */
+
+.footer {
+    width: 100%;
+    min-height: 200px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
